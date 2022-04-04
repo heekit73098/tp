@@ -277,21 +277,21 @@ Format: `list [TAG_NAME]`
 
 ### 4.9. Setting a module's grade: `grade`
 
-Assigns a grade to a module of your choice.
+   Assigns a grade to a module of your choice.
 
-Format: `grade MODULE_CODE MODULE_GRADE`
+   Format: `grade MODULE_CODE MODULE_GRADE`
 
-- `MODULE_CODE`: The module code of the module to be assigned the grade. Must be a single word containing only alphanumeric characters and underscore `_`. Furthermore, a module with this module code must currently exist.
-- `MODULE_GRADE`: The grade to be assigned to the module.
+  - `MODULE_CODE`: The module code of the module to be assigned the grade. Must be a single word containing only alphanumeric characters and underscore `_`. Furthermore, a module with this module code must currently exist.
+  - `MODULE_GRADE`: The grade to be assigned to the module.
 
 > 📔 <span style="color:#3333ff">**NOTE:**</span>
 >
 > Only the following grades are supported (case-insensitive):<br>
 > A+, A, A-, B+, B, B-, C+, C, D+, D, F, S, U, CS, CU
 
-Example: `grade CS2113T A+`
+  Example: `grade CS2113T A+`
 
-<br>
+  <br>
 
 ### 4.10. Viewing GPA: `gpa`
 
